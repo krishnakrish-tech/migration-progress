@@ -1,0 +1,58 @@
+<nav class="navbar">
+    <div class="navbar-brand">
+      <span class="company-name">ampleLogic</span>
+    </div>
+    <ul class="nav-list">
+      <li class="nav-item">
+        <a routerLink="/organization-structure" class="nav-link">
+          <img src="../../../assets/organization.png" alt="Organization Structure" class="nav-icon">
+          <span>Organization Structure</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="/configurations" class="nav-link">
+          <img src="../../../assets/configuration.png" alt="Configurations" class="nav-icon">
+          <span>Configurations</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="/reports" class="nav-link">
+          <img src="../../../assets/reports.jpg" alt="Reports" class="nav-icon">
+          <span>Reports</span>
+        </a>
+      </li>
+    </ul>
+    <div class="navbar-right">
+      <div class="icon-container">
+        <img src="../../../assets/notification.png" alt="Notifications" class="navbar-icon">
+      </div>
+      <div class="icon-container">
+        <img src="../../../assets/profile.webp" alt="Profile" class="navbar-icon">
+      </div>
+    </div>
+  </nav>
+  
+
+
+
+
+<div *ngIf="isVisible" class="offcanvas-popup">
+    <div class="offcanvas-header">
+      <img src="assets/planeicon.jpg" alt="Icon" style="height: 40px; width: 40px;"> 
+    </div>
+    <div class="offcanvas-body">
+      <div class="progress">
+        <div class="progress-bar" role="progressbar" [style.width.%]="progress">
+            <span class="progress-text">{{ progress }}%</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <button (click)="startMigration()" class="start-button">Start</button>
+
+  <footer>
+    <p>&copy; Copy rights 2000-2023 | All rights reserved.</p>
+  </footer>
+  
+  

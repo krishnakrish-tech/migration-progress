@@ -1,0 +1,166 @@
+/* Center the Start Migration Button */
+.start-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000; /* Ensure the button is on top of other elements */
+  }
+  
+  .start-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Offcanvas Popup Styles */
+  .offcanvas-popup {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    z-index: 1000; /* Ensure the popup is on top of other elements */
+  }
+  
+  /* Offcanvas Header Styles */
+  .offcanvas-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Toggle Button Styles */
+  .toggle-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  /* Progress Bar Styles */
+  .progress {
+    height: 20px;
+    background-color: #f3f3f3;
+    border-radius: 5px;
+    margin-top: 15px;
+  }
+  
+  .progress-bar {
+    height: 100%;
+    background-color: #28a745;
+    border-radius: 5px;
+  }
+  
+
+  footer {
+  background-color: #837e7e;
+  color: #ded9d9;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Global Styles */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal scroll */
+  }
+
+  .progress-text {
+    position: absolute;
+    top: 50%;
+    right: 10px; 
+    transform: translateY(-50%);
+    color: #fff;
+    font-weight: bold;
+    background-color: #007bff;
+  }
+
+
+  /* Navbar Styles */
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #f8f9fa; /* Light background color */
+    border-bottom: 1px solid #ddd; /* Border for navbar */
+    padding: 10px;
+  }
+  
+  /* Company Name Styles */
+  .navbar-brand {
+    flex: 1;
+  }
+  
+  .company-name {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333; /* Dark color for contrast */
+  }
+  
+  /* Navigation List Styles */
+  .nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex: 2;
+    justify-content: center; /* Center nav items */
+  }
+  
+  .nav-item {
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+  }
+  
+  .nav-link {
+    color: #333; /* Dark color for text */
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+  }
+  
+  .nav-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Right-side Icons Styles */
+  .navbar-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon-container {
+    margin-left: 15px;
+  }
+  
+  .navbar-icon {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+  }
+  
+  
+
+  
